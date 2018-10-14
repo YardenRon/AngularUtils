@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SimpleLoaderComponent } from './loaders/simple-loader/simple-loader.component';
 import { ColorfulSpinnerComponent } from './loaders/colorful-spinner/colorful-spinner.component';
 import { BouncingBallComponent } from './loaders/bouncing-ball/bouncing-ball.component';
+import { BirdLoaderComponent } from './loaders/bird-loader/bird-loader.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SimpleLoaderComponent,
     ColorfulSpinnerComponent,
-    BouncingBallComponent
+    BouncingBallComponent,
+    BirdLoaderComponent
   ],
   imports: [
     BrowserModule,
