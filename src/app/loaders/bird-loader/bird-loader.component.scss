@@ -19,7 +19,7 @@ $eyeSize: 20px;
         border-top-right-radius: $headSize * 2;
         z-index: 1001;
         transform-origin: -25%;
-        animation: head-rotation 3s linear infinite;
+        animation: head-rotation 2.5s linear infinite;
     }   
 
     .face {
@@ -32,7 +32,7 @@ $eyeSize: 20px;
         border-top-right-radius: $faceSize * 2;
         z-index: 1002;
         transform-origin: -38%;
-        animation: face-rotation 3s linear infinite;
+        animation: face-rotation 2.5s linear infinite;
     }
 
     .upper-beak {
@@ -45,7 +45,7 @@ $eyeSize: 20px;
         border-top-left-radius: $upperBeakSize;
         z-index: 1004;
         transform-origin: 62% 62%;
-        animation: upper-beak-rotation 3s linear infinite;
+        animation: upper-beak-rotation 2.5s linear infinite;
     }
 
     .lower-beak {
@@ -58,7 +58,7 @@ $eyeSize: 20px;
         border-bottom-left-radius: $lowerBeakSize;
         z-index: 1000;
         transform-origin: 25% 65%;
-        animation: lower-beak-rotation 3s linear infinite;
+        animation: lower-beak-rotation 2.5s linear infinite;
     }
 
     .eye {
@@ -70,7 +70,7 @@ $eyeSize: 20px;
         background-color: black;
         border-radius: 50%;
         z-index: 1003;
-        animation: eye-roll 3s linear infinite;
+        animation: eye-roll 2.5s linear infinite;
     }
 }
 
