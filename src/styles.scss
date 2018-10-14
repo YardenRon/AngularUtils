@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Used for bouncing-ball loader */
+@import  url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    position: relative; 
+    width: 99%;
+    height: 97vh;
+    font-family: Montserrat;
+}
+/* End of bouncing-ball loader */
