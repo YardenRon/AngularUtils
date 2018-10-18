@@ -7,6 +7,7 @@ import { SimpleLoaderComponent } from './loaders/simple-loader/simple-loader.com
 import { ColorfulSpinnerComponent } from './loaders/colorful-spinner/colorful-spinner.component';
 import { BouncingBallComponent } from './loaders/bouncing-ball/bouncing-ball.component';
 import { BirdLoaderComponent } from './loaders/bird-loader/bird-loader.component';
+import { StairsLoaderComponent } from './loaders/stairs-loader/stairs-loader.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BirdLoaderComponent } from './loaders/bird-loader/bird-loader.component
     SimpleLoaderComponent,
     ColorfulSpinnerComponent,
     BouncingBallComponent,
-    BirdLoaderComponent
+    BirdLoaderComponent,
+    StairsLoaderComponent
   ],
   imports: [
     BrowserModule,

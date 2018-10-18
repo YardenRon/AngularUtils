@@ -12,7 +12,21 @@
 /* End of bouncing-ball loader */
 
 /* Used for bird loader */
-body {
-    background-color: #28293B
-}
+// body {
+//     background-color: #28293B
+// }
 /* End of bird loader */
+
+/* Used for stairs loader */
+html {
+    height: 97%;
+}
+
+body {
+    height: 97%;
+    background-color: #EA4961;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* End of stairs loader */
