@@ -18,15 +18,22 @@
 /* End of bird loader */
 
 /* Used for stairs loader */
-html {
-    height: 97%;
-}
+// html {
+//     height: 97%;
+// }
 
-body {
-    height: 97%;
-    background-color: #EA4961;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+// body {
+//     height: 97%;
+//     background-color: #EA4961;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
 /* End of stairs loader */
+
+/* Used for flying-man loader */
+body {
+    background-color: #f1c40f;
+    overflow: hidden;
+}
+/* End of flying-man loader */

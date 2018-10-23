@@ -8,6 +8,7 @@ import { ColorfulSpinnerComponent } from './loaders/colorful-spinner/colorful-sp
 import { BouncingBallComponent } from './loaders/bouncing-ball/bouncing-ball.component';
 import { BirdLoaderComponent } from './loaders/bird-loader/bird-loader.component';
 import { StairsLoaderComponent } from './loaders/stairs-loader/stairs-loader.component';
+import { FlyingManLoaderComponent } from './loaders/flying-man-loader/flying-man-loader.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StairsLoaderComponent } from './loaders/stairs-loader/stairs-loader.com
     ColorfulSpinnerComponent,
     BouncingBallComponent,
     BirdLoaderComponent,
-    StairsLoaderComponent
+    StairsLoaderComponent,
+    FlyingManLoaderComponent
   ],
   imports: [
     BrowserModule,
